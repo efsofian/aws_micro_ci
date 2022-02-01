@@ -4,9 +4,6 @@ on:
     branches: [master]
     paths:
     - 'container/**'
-defaults:
-  run:
-    working-directory: container
 jobs:
   build:
     runs-on: ubuntu-latest
