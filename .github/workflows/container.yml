@@ -2,8 +2,6 @@ name: container
 on:
   push:
     branches: [master]
-    paths:
-    - 'container/**'
 jobs:
   build:
     runs-on: ubuntu-latest
